@@ -6,17 +6,33 @@ body {
 	height: 100vh;
 }
 
-.grad70 {
-    background: linear-gradient( rgb(138, 6, 143) 50%, rgb(238, 78, 182));
-    }
+/*Inicio*/
 
-.container-flex-column {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	padding: 2em;
+.grad50 {
+    background: linear-gradient( rgb(138, 6, 143) 50%, rgb(238, 78, 182));
 }
 
 .logo {
-	outline: 1px solid red;
+	height: 250px;
+	width: 200px;
+  }
+
+  /*register*/
+
+.register {
+  background-image: url(../assets/images/drive.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center ;
+  height: 100vh;
 }
+
+.buttons-register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2em;
+}
+
+/*sign Up*/
