@@ -13,11 +13,24 @@ body {
 }
 
 .logo {
-	height: 250px;
-	width: 200px;
-  }
+	height: 100%;
+	width: 70%;
+	margin-left: 10%;
+}
 
-  /*register*/
+/*register*/
+
+.logo-register {
+  height: 160%;
+  width: 70%;
+  margin-top: 20%;
+  margin-left: 25%;
+  margin-bottom: 15%;
+}
+
+.height100 {
+	height: 100px;
+}
 
 .register {
   background-image: url(../assets/images/drive.jpg);
@@ -30,9 +43,77 @@ body {
 
 .buttons-register {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  padding: 2em;
+}
+
+.buttons-register a {
+  border: 2px solid #ffffff;
+  background: transparent;
+  margin: 5px;
+}
+
+#signup:hover {
+  background: #e6e216;
+  color: #ffffff;
+  border: none;
+}
+
+#login:hover {
+  background: #e6e216;
+  color: #ffffff;
+  border: none;
 }
 
 /*sign Up*/
+
+.container-input {
+  display: inline-block;
+}
+
+select {
+  margin-right: -10px;
+  background-color: rgb(236, 70, 220);
+  border-radius: 2vh;
+  color: #ffffff;
+  height: 30px;
+}
+
+.number {
+  background-color: rgb(236, 70, 220);
+  border-radius: 2vh;
+  color: #ffffff;
+  display: inline-block;
+  width: 40px;
+  height: 30px;
+  text-align: center;
+  margin-right: 3vh;
+  margin-left: 3vh;
+}
+
+.box {
+  display: inline-block;
+  border:none;
+  border-radius: 2vh;
+  background-color: rgb(236, 70, 220);
+}
+
+.box input {
+  height: 30px;
+  border: none;
+  border-radius: 2vh;
+  display: inline-block;
+ color: #ffffff;
+  background-color: rgb(236, 70, 220);
+}
+
+.box hr {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.btn-signup {
+  color: #ffffff;
+  background-color: rgba(248, 6, 147, 0.959);
+  margin-top: 10%;
+  margin-left: 40%;
+}
